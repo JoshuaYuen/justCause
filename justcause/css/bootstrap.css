@@ -3011,6 +3011,7 @@ input[type="button"].btn-block {
   outline: 0;
 }
 .dropdown-menu {
+  overflow: scroll;
   position: absolute;
   top: 100%;
   left: 0;
@@ -3018,6 +3019,7 @@ input[type="button"].btn-block {
   display: none;
   float: left;
   min-width: 160px;
+  max-height: 300px;
   padding: 5px 0;
   margin: 2px 0 0;
   font-size: 14px;
@@ -3030,6 +3032,11 @@ input[type="button"].btn-block {
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
           box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
+
+.dropdown-menu .filter-menu{
+  background-color: red;
+}
+
 .dropdown-menu.pull-right {
   right: 0;
   left: auto;
