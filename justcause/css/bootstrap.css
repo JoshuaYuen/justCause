@@ -3033,8 +3033,8 @@ input[type="button"].btn-block {
           box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
 
-.dropdown-menu .filter-menu{
-  background-color: red;
+.dropdown-menu.filter-menu{
+  text-align: left;
 }
 
 .dropdown-menu.pull-right {
