@@ -4612,25 +4612,28 @@ a.thumbnail.active {
   overflow: hidden;
   zoom: 1;
   font-size: 12px;
-  text-decoration: none;
-}
+  text-align: left;
+  }
 .media,
-.media .media {
+.media .media  {
   margin-top: 15px;
-  text-decoration: none;
 }
+.media a:link, a:visited, a:hover, a:active {
+  text-decoration: none;color: inherit;
+}
+
+.media 
 .media:first-child {
   margin-top: 0;
 }
 .media-object {
   display: block;
-  height: 80px;
-  width: 80px;
+  height: 50px;
+  width: 50px;
 }
 .media-heading {
   margin: 0 0 5px;
   font-weight: bold;
-  text-decoration: none;
 }
 .media > .pull-left {
   margin-right: 10px;
